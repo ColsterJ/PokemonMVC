@@ -12,6 +12,6 @@ namespace PokemonMVC.Models
         public int TrainerID { get; set; }
         public string Nickname { get; set; }
         
-        public Pokemon Pokemon { get; set; }
+        //public Pokemon Pokemon { get; set; }
     }
 }

@@ -8,8 +8,8 @@ using PokemonMVC.Data;
 namespace PokemonMvcAgain.Migrations
 {
     [DbContext(typeof(PokemonContext))]
-    [Migration("20191121204657_PokemonContext")]
-    partial class PokemonContext
+    [Migration("20191121213306_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
